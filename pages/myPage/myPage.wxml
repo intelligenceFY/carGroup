@@ -1,0 +1,26 @@
+<view class="container2">
+  <view class="icon_display">
+    <image src="/images/Car_96px.png"></image>
+  </view>
+  <view class="apply_container">
+  <view class="info" bindtap="infoPath">
+      <text>个人资料</text>
+      <text>查看 ></text>
+    </view>
+    <view class="be" bindtap="toPath">
+      <text>拼车待验证</text><text>查看 ></text>
+    </view>
+    <view class="to_be" bindtap="tobePath">
+      <text>拼车待被验证</text><text>查看 ></text>
+    </view>
+    <view class="success_list" bindtap="sucpath">
+      <text>拼车成功列表</text><text>查看 ></text>
+    </view>
+    <view class="fail_list" bindtap="failPath">
+      <text>拼车失败列表</text><text>查看 ></text>
+    </view>
+    <view class="history_list" bindtap="hisPath">
+      <text>历史拼车订单</text><text>查看 ></text>
+    </view>
+  </view>
+</view>

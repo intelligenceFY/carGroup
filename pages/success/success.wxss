@@ -1,0 +1,35 @@
+.container5{
+  display: flex;
+  flex-direction: column;
+  width: 650rpx;
+  justify-content: flex-start;
+  margin: 0 0 90rpx 50rpx;
+  border: 1px solid #ccc;
+}
+.lable_box{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 70rpx;
+  line-height: 70rpx;
+  font-size: 14px;
+  padding: 20rpx;
+}
+.list_box{
+  height: 98rpx;
+  align-items: center;
+  width: 650rpx;
+  font-size: 12px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #fff;
+  border-bottom: 1px solid #ededed;
+  border-top: 1px solid #ededed;
+  padding-bottom: 5px;
+}
+.start,.end{
+  width: 240px;
+  display: flex;
+  flex-direction: row;
+}

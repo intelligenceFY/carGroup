@@ -1,0 +1,14 @@
+<view class="container1">
+  <view class="input_container">
+    <input placeholder="请输入起点" type="text"></input>
+    <input placeholder="请输入终点" type="text"></input>
+    <input placeholder="请输入出发时间" type="text"></input>
+    <input placeholder="请输入期望人数" type="number"></input>
+    <input placeholder="请输入交通工具" type="text"></input>
+    <input placeholder="其他" type="input"></input>
+  </view>
+  <view class="button_container">
+    <button type="default" form-type="reset">重置</button>
+    <button type="primary" form-type="submit">发布</button>
+  </view>
+</view>

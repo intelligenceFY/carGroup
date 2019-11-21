@@ -1,0 +1,17 @@
+<view class="container2">
+  <view class="icon_display">
+    <image src="/images/User_96px.png"></image>
+  </view>
+  <view class="apply_container">
+    <view class="info" bindtap="dispath">
+      <text>姓名</text>
+      <text>{{name}} ></text>
+    </view>
+    <view class="be">
+      <text>性别</text><text>{{sex}}＞</text>
+    </view>
+    <view class="to_be">
+      <text>电话</text><text>{{phone_number}} ></text>
+    </view>
+  </view>
+</view>

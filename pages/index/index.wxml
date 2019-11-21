@@ -1,0 +1,70 @@
+<view wx:if="{{isHide}}">
+    <view wx:if="{{canIUse}}" >
+        <view class='header'>
+            <image src='/images/Taxi_32px.png'></image>
+        </view>
+ 
+        <view class='content'>
+            <view>拼车派申请获取以下权限</view>
+            <text>获得你的公开信息(昵称，头像等)</text>
+        </view>
+ 
+        <button class='bottom' type='primary' open-type="getUserInfo" lang="zh_CN" bindgetuserinfo="bindGetUserInfo">
+            授权登录
+        </button>
+    </view>
+    <view wx:else>请升级微信版本</view>
+</view>
+ 
+<view wx:else>
+    <view class="mcontainer">
+      <view class="input_container">
+        <input type="text" placeholder=" 请输入起点" class="start_input"></input>
+        <input type="text" placeholder=" 请输入起点" class="start_input"></input>
+      </view>
+      <view class="button_container">
+         <button type="primary" class="choose">筛选</button>
+      </view>
+     
+    </view>
+     <view class="body_contanier">
+        <view class="lable_box">
+          <text>起点</text><text>终点</text><text>出发时间</text>
+        </view>
+        <view class="list_box" bindtap="dispath">
+          <view class="start"><text >{{start}}</text></view>
+          <view class="end"> <text>{{end}}</text></view>
+          <view class="time"> <text>{{time}}</text></view>
+        </view>
+        <view class="list_box">
+          <view class="start"><text >{{start}}</text></view>
+          <view class="end"> <text>{{end}}</text></view>
+          <view class="time"> <text>{{time}}</text></view>
+        </view>
+        <view class="list_box">
+          <view class="start"><text >{{start}}</text></view>
+          <view class="end"> <text>{{end}}</text></view>
+          <view class="time"> <text>{{time}}</text></view>
+        </view>
+                <view class="list_box">
+          <view class="start"><text >{{start}}</text></view>
+          <view class="end"> <text>{{end}}</text></view>
+          <view class="time"> <text>{{time}}</text></view>
+        </view>
+                <view class="list_box">
+          <view class="start"><text >{{start}}</text></view>
+          <view class="end"> <text>{{end}}</text></view>
+          <view class="time"> <text>{{time}}</text></view>
+        </view>
+                <view class="list_box">
+          <view class="start"><text >{{start}}</text></view>
+          <view class="end"> <text>{{end}}</text></view>
+          <view class="time"> <text>{{time}}</text></view>
+        </view>
+                <view class="list_box">
+          <view class="start"><text >{{start}}</text></view>
+          <view class="end"> <text>{{end}}</text></view>
+          <view class="time"> <text>{{time}}</text></view>
+        </view>
+     </view>
+</view>

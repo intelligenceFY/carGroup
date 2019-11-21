@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/sflist/sflist",
+    "pages/ver2/ver2",
+    "pages/ver/ver",
+    "pages/Verification/Verification",
+    "pages/To_be_verified/To_be_verified",
+    "pages/cars/cars",
+    "pages/history/history",
+    "pages/success/success",
+    "pages/cars_details/cars_details",
+    "pages/myPage/myPage",
+    "pages/info/info",
+    "pages/fail/fail",
+    "pages/creation/creation"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "拼车派",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#11cd6e",
+    "borderStyle": "black",
+    "backgroundColor": "#3E3333",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "selectIconPath": "images/Home_64px.png",
+        "iconPath": "images/Home_32px.png"
+      },
+      {
+        "pagePath": "pages/creation/creation",
+        "text": "创建",
+        "selectIconPath": "images/Plus Math_32px.png",
+        "iconPath": "images/Math_32px.png"
+      },
+      {
+        "pagePath": "pages/myPage/myPage",
+        "text": "我的",
+        "selectIconPath": "images/User_32px1.png",
+        "iconPath": "images/User_32px.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

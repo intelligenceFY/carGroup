@@ -1,0 +1,35 @@
+<view class="container4">
+  <view class="name">
+    <view class="title1"><text>发起人名称</text></view>
+    <view class="nameBox"><text>{{name}}</text></view>
+  </view>
+  <view class="start">
+  <view class="title2"><text>起点</text></view>
+    <view class="startBox"><text>{{start}}</text></view>
+  </view>
+  <view class="end">
+    <view class="title3"><text>终点</text></view>
+    <view class="endBox"><text>{{end}}</text></view>
+  </view>
+  <view class="time">
+    <view class="title4"><text>出发时间</text></view>
+    <view class="timeBox"><text>{{time}}</text></view>
+  </view>
+  <view class="traffic">
+    <view class="title5"><text>交通工具</text></view>
+    <view class="trafficBox"><text>{{traffic}}</text></view>
+  </view>
+  <view class="respect">
+    <view class="title6"><text>期望人数</text></view>
+    <view class="respectBox"><text>{{respect}}</text></view>
+  </view>
+  <view class="others">
+    <view class="title7"><text>其他</text></view>
+    <view class="othersBox"><text>{{others}}</text></view>
+  </view>
+  <view class="status">
+    <view class="title8"><text>状态</text></view>
+    <view class="statusBox"><text>{{status}}</text></view>
+  </view>
+  <button type="warn">撤销申请</button>
+</view>

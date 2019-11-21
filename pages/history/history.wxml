@@ -1,0 +1,17 @@
+<view class="container6">
+  <view class="display">
+    <view class="total_display"><text>11{{total_num}}</text></view>
+    <view class="success_display"><text>32{{success_num}}</text></view>
+  </view>
+  
+</view>
+<view class="listContainer">
+    <view class="lable_box">
+      <text>起点</text><text>终点</text><text>出发时间</text>
+    </view>
+    <view class="list_box" bindtap="historyPath">
+      <view class="start"><text >{{start}}</text></view>
+      <view class="end"> <text>{{end}}</text></view>
+      <view class="time"> <text>{{time}}</text></view>
+    </view>
+  </view>

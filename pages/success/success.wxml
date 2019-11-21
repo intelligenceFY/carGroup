@@ -1,0 +1,10 @@
+<view class="container5">
+  <view class="lable_box">
+    <text>起点</text><text>终点</text><text>出发时间</text>
+  </view>
+  <view class="list_box" bindtap="dispath">
+    <view class="start"><text >{{start}}</text></view>
+    <view class="end"> <text>{{end}}</text></view>
+    <view class="time"> <text>{{time}}</text></view>
+  </view>
+</view>

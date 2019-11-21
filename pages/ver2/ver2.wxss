@@ -1,0 +1,32 @@
+/* pages/ver2/ver2.wxss */
+.container4{
+  display: flex;
+  flex-direction: column;
+  width: 650rpx;
+  justify-content: center;
+  margin: 200rpx 0 90rpx 50rpx;
+}
+.name,.start,.end,.time,.traffic,.respect,.others,.status{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 20rpx;
+  padding-right: 20rpx;
+  height: 100rpx;
+  border-top: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  line-height: 100rpx;
+  font-size: 28rpx;
+}
+.title1,.title2,.title3,.title4,.title5,.title6,.title7,.title8{
+  width: 200rpx;
+  border-right: 1px solid #ccc;
+}
+.status{
+  border-bottom: 1px solid #ccc;
+}
+button{
+  margin-top:40rpx; 
+}
+
